@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family:quantico;
+    background-color: #111;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.nav-left{
+    margin-right: 20px;
+    color: #f9b300;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-right input {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+.nav-right select {
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+
+.major-updates {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #000;
+}
+
+.major-updates h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.updates-slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.update {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.update img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.update p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.pgl-antwerp {
+    padding: 50px 20px;
+    background-color: #222;
+    color: #BFBFBF;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.pgl-antwerp h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.champions-info {
+    display: flex;
+    align-items: center;
+}
+
+.champions-info img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.champions-info p {
+    flex: 1;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+footer a {
+    margin: 0 15px;
+    color: #f9b300;
+    text-decoration: none;
+}
+
+
+
+.pgl-antwer1{
+        padding: 50px 20px;
+    background-color: #222;
+    color: #BFBFBF;
+    font-size: 14px;
+    font-weight: 400px ;
+}
+
+
+
+
+.navbar ul li:hover{
+    background: transparent;
+    color: #ff9100;
+    cursor: pointer;
+}
+
+
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 28px;
+    color: rgb(255, 255, 255);
+}
+
+
+
